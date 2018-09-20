@@ -1,0 +1,1556 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Tue Sep 18 23:23:03 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45306 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x261ee80
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3786)
+spawned uWSGI worker 1 (pid: 3787, cores: 2)
+spawned uWSGI worker 2 (pid: 3788, cores: 2)
+spawned uWSGI worker 3 (pid: 3789, cores: 2)
+spawned uWSGI worker 4 (pid: 3790, cores: 2)
+spawned uWSGI http 1 (pid: 3791)
+--- no python application found, check your startup logs for errors ---
+[pid: 3787|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 655 bytes} [Tue Sep 18 23:36:51 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3788|app: -1|req: -1/2] 127.0.0.1 () {38 vars in 609 bytes} [Tue Sep 18 23:36:51 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3787|app: -1|req: -1/3] 127.0.0.1 () {38 vars in 655 bytes} [Tue Sep 18 23:39:58 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3790|app: -1|req: -1/4] 127.0.0.1 () {38 vars in 609 bytes} [Tue Sep 18 23:39:58 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3787|app: -1|req: -1/5] 127.0.0.1 () {40 vars in 686 bytes} [Tue Sep 18 23:40:18 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3789|app: -1|req: -1/6] 127.0.0.1 () {38 vars in 609 bytes} [Tue Sep 18 23:40:18 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 3791)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Tue Sep 18 23:41:45 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44261 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xe66e80
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4062)
+spawned uWSGI worker 1 (pid: 4063, cores: 2)
+spawned uWSGI worker 2 (pid: 4064, cores: 2)
+spawned uWSGI worker 3 (pid: 4065, cores: 2)
+spawned uWSGI worker 4 (pid: 4066, cores: 2)
+spawned uWSGI http 1 (pid: 4067)
+--- no python application found, check your startup logs for errors ---
+[pid: 4066|app: -1|req: -1/1] 127.0.0.1 () {40 vars in 686 bytes} [Tue Sep 18 23:41:48 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4066|app: -1|req: -1/2] 127.0.0.1 () {42 vars in 662 bytes} [Tue Sep 18 23:41:48 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4064|app: -1|req: -1/3] 127.0.0.1 () {40 vars in 686 bytes} [Tue Sep 18 23:41:49 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4066|app: -1|req: -1/4] 127.0.0.1 () {42 vars in 662 bytes} [Tue Sep 18 23:41:49 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4067)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 02:03:32 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34130 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x2613e70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5029)
+spawned uWSGI worker 1 (pid: 5030, cores: 2)
+spawned uWSGI worker 2 (pid: 5031, cores: 2)
+spawned uWSGI worker 3 (pid: 5032, cores: 2)
+spawned uWSGI worker 4 (pid: 5033, cores: 2)
+spawned uWSGI http 1 (pid: 5034)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5034)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 03:10:11 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x19731c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5754)
+spawned uWSGI worker 1 (pid: 5755, cores: 2)
+spawned uWSGI worker 2 (pid: 5756, cores: 2)
+spawned uWSGI worker 3 (pid: 5757, cores: 2)
+spawned uWSGI worker 4 (pid: 5758, cores: 2)
+...gracefully killing workers...
+Gracefully killing worker 4 (pid: 5758)...
+Gracefully killing worker 2 (pid: 5756)...
+Gracefully killing worker 3 (pid: 5757)...
+Gracefully killing worker 1 (pid: 5755)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /home/python/.virtualenvs/h4/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 03:10:15 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1422aa0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 5754)
+spawned uWSGI worker 1 (pid: 5764, cores: 2)
+spawned uWSGI worker 2 (pid: 5765, cores: 2)
+spawned uWSGI worker 3 (pid: 5766, cores: 2)
+spawned uWSGI worker 4 (pid: 5767, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+...brutally killing workers...
+Gracefully killing worker 1 (pid: 5764)...
+Gracefully killing worker 2 (pid: 5765)...
+worker 1 buried after 2 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /home/python/.virtualenvs/h4/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 03:31:38 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x214baa0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 5754)
+spawned uWSGI worker 1 (pid: 6988, cores: 2)
+spawned uWSGI worker 2 (pid: 6989, cores: 2)
+spawned uWSGI worker 3 (pid: 6990, cores: 2)
+spawned uWSGI worker 4 (pid: 6991, cores: 2)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 19:35:13 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x20b6150
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3615)
+spawned uWSGI worker 1 (pid: 3616, cores: 2)
+spawned uWSGI worker 2 (pid: 3617, cores: 2)
+spawned uWSGI worker 3 (pid: 3618, cores: 2)
+spawned uWSGI worker 4 (pid: 3619, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+--- no python application found, check your startup logs for errors ---
+[pid: 3617|app: -1|req: -1/1] 127.0.0.1 () {46 vars in 787 bytes} [Wed Sep 19 19:47:24 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3618|app: -1|req: -1/2] 127.0.0.1 () {42 vars in 643 bytes} [Wed Sep 19 19:47:24 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3616|app: -1|req: -1/3] 127.0.0.1 () {44 vars in 725 bytes} [Wed Sep 19 19:47:29 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 3619|app: -1|req: -1/4] 127.0.0.1 () {42 vars in 643 bytes} [Wed Sep 19 19:47:29 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 19:54:58 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x11bc120
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4083)
+spawned uWSGI worker 1 (pid: 4084, cores: 2)
+spawned uWSGI worker 2 (pid: 4085, cores: 2)
+spawned uWSGI worker 3 (pid: 4086, cores: 2)
+spawned uWSGI worker 4 (pid: 4087, cores: 2)
+--- no python application found, check your startup logs for errors ---
+[pid: 4087|app: -1|req: -1/1] 127.0.0.1 () {44 vars in 725 bytes} [Wed Sep 19 19:55:03 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4087|app: -1|req: -1/2] 127.0.0.1 () {42 vars in 643 bytes} [Wed Sep 19 19:55:03 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 19:57:16 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x106a150
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4131)
+spawned uWSGI worker 1 (pid: 4132, cores: 2)
+spawned uWSGI worker 2 (pid: 4133, cores: 2)
+spawned uWSGI worker 3 (pid: 4134, cores: 2)
+spawned uWSGI worker 4 (pid: 4135, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 20:01:51 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x934150
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4173)
+spawned uWSGI worker 1 (pid: 4174, cores: 2)
+spawned uWSGI worker 2 (pid: 4175, cores: 2)
+spawned uWSGI worker 3 (pid: 4176, cores: 2)
+spawned uWSGI worker 4 (pid: 4177, cores: 2)
+--- no python application found, check your startup logs for errors ---
+[pid: 4175|app: -1|req: -1/1] 127.0.0.1 () {44 vars in 725 bytes} [Wed Sep 19 20:01:55 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4175|app: -1|req: -1/2] 127.0.0.1 () {46 vars in 696 bytes} [Wed Sep 19 20:01:55 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4175|app: -1|req: -1/3] 127.0.0.1 () {44 vars in 725 bytes} [Wed Sep 19 20:01:55 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4175|app: -1|req: -1/4] 127.0.0.1 () {46 vars in 696 bytes} [Wed Sep 19 20:01:55 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4175|app: -1|req: -1/5] 127.0.0.1 () {44 vars in 725 bytes} [Wed Sep 19 20:01:55 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4176|app: -1|req: -1/6] 127.0.0.1 () {46 vars in 696 bytes} [Wed Sep 19 20:01:55 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4177|app: -1|req: -1/7] 127.0.0.1 () {44 vars in 725 bytes} [Wed Sep 19 20:01:55 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4175|app: -1|req: -1/8] 127.0.0.1 () {46 vars in 696 bytes} [Wed Sep 19 20:01:56 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4176|app: -1|req: -1/9] 127.0.0.1 () {44 vars in 725 bytes} [Wed Sep 19 20:01:56 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4175|app: -1|req: -1/10] 127.0.0.1 () {46 vars in 696 bytes} [Wed Sep 19 20:01:56 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4177|app: -1|req: -1/11] 127.0.0.1 () {44 vars in 725 bytes} [Wed Sep 19 20:01:56 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4176|app: -1|req: -1/12] 127.0.0.1 () {46 vars in 696 bytes} [Wed Sep 19 20:01:56 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4175|app: -1|req: -1/13] 127.0.0.1 () {44 vars in 725 bytes} [Wed Sep 19 20:01:56 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4174|app: -1|req: -1/14] 127.0.0.1 () {46 vars in 696 bytes} [Wed Sep 19 20:01:56 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4176|app: -1|req: -1/15] 127.0.0.1 () {44 vars in 725 bytes} [Wed Sep 19 20:01:56 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4177|app: -1|req: -1/16] 127.0.0.1 () {46 vars in 696 bytes} [Wed Sep 19 20:01:56 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4176|app: -1|req: -1/17] 127.0.0.1 () {44 vars in 725 bytes} [Wed Sep 19 20:01:56 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4174|app: -1|req: -1/18] 127.0.0.1 () {46 vars in 696 bytes} [Wed Sep 19 20:01:56 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 20:10:02 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.0.109:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x2688150
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4274)
+spawned uWSGI worker 1 (pid: 4275, cores: 2)
+spawned uWSGI worker 2 (pid: 4276, cores: 2)
+spawned uWSGI worker 3 (pid: 4277, cores: 2)
+spawned uWSGI worker 4 (pid: 4278, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 20:12:42 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.0.109:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x2077150
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4308)
+spawned uWSGI worker 1 (pid: 4309, cores: 2)
+spawned uWSGI worker 2 (pid: 4310, cores: 2)
+spawned uWSGI worker 3 (pid: 4311, cores: 2)
+spawned uWSGI worker 4 (pid: 4312, cores: 2)
+--- no python application found, check your startup logs for errors ---
+[pid: 4309|app: -1|req: -1/1] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:12:45 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4309|app: -1|req: -1/2] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:12:45 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4310|app: -1|req: -1/3] 192.168.0.109 () {40 vars in 665 bytes} [Wed Sep 19 20:23:42 2018] GET /user/login => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4311|app: -1|req: -1/4] 192.168.0.109 () {40 vars in 608 bytes} [Wed Sep 19 20:23:42 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4312|app: -1|req: -1/5] 192.168.0.109 () {40 vars in 645 bytes} [Wed Sep 19 20:23:46 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4311|app: -1|req: -1/6] 192.168.0.109 () {40 vars in 598 bytes} [Wed Sep 19 20:23:46 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 20:31:19 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.0.109:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x21eb170
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/uwsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4567)
+spawned uWSGI worker 1 (pid: 4568, cores: 2)
+spawned uWSGI worker 2 (pid: 4569, cores: 2)
+spawned uWSGI worker 3 (pid: 4570, cores: 2)
+spawned uWSGI worker 4 (pid: 4571, cores: 2)
+--- no python application found, check your startup logs for errors ---
+[pid: 4571|app: -1|req: -1/1] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:32:06 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4571|app: -1|req: -1/2] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:32:06 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4570|app: -1|req: -1/3] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:32:07 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4571|app: -1|req: -1/4] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:32:07 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4569|app: -1|req: -1/5] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:32:07 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4571|app: -1|req: -1/6] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:32:07 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4571|app: -1|req: -1/7] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:32:07 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4570|app: -1|req: -1/8] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:32:07 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4569|app: -1|req: -1/9] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:32:11 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4570|app: -1|req: -1/10] 192.168.0.109 () {40 vars in 598 bytes} [Wed Sep 19 20:32:12 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 20:33:33 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.0.109:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1aad140
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+  File "uwsgi.ini", line 2
+    socket=192.168.0.109:8000
+                   ^
+SyntaxError: invalid syntax
+failed to parse file uwsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4613)
+spawned uWSGI worker 1 (pid: 4614, cores: 2)
+spawned uWSGI worker 2 (pid: 4615, cores: 2)
+spawned uWSGI worker 3 (pid: 4616, cores: 2)
+spawned uWSGI worker 4 (pid: 4617, cores: 2)
+--- no python application found, check your startup logs for errors ---
+[pid: 4615|app: -1|req: -1/1] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:33:35 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4615|app: -1|req: -1/2] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:33:35 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4615|app: -1|req: -1/3] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:33:35 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4616|app: -1|req: -1/4] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:33:35 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4615|app: -1|req: -1/5] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:33:35 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4616|app: -1|req: -1/6] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:33:35 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4616|app: -1|req: -1/7] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:33:35 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4615|app: -1|req: -1/8] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:33:36 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4615|app: -1|req: -1/9] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:33:36 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4616|app: -1|req: -1/10] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:33:36 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 20:35:20 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday/
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.0.109:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xf8d140
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+  File "uwsgi.ini", line 2
+    socket=192.168.0.109:8000
+                   ^
+SyntaxError: invalid syntax
+failed to parse file uwsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4691)
+spawned uWSGI worker 1 (pid: 4692, cores: 2)
+spawned uWSGI worker 2 (pid: 4693, cores: 2)
+spawned uWSGI worker 3 (pid: 4694, cores: 2)
+spawned uWSGI worker 4 (pid: 4695, cores: 2)
+--- no python application found, check your startup logs for errors ---
+[pid: 4695|app: -1|req: -1/1] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:35:39 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4695|app: -1|req: -1/2] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:35:39 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4695|app: -1|req: -1/3] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:35:40 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4694|app: -1|req: -1/4] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:35:40 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4694|app: -1|req: -1/5] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:35:40 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4695|app: -1|req: -1/6] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:35:40 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4694|app: -1|req: -1/7] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:35:40 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4695|app: -1|req: -1/8] 192.168.0.109 () {44 vars in 651 bytes} [Wed Sep 19 20:35:40 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4693|app: -1|req: -1/9] 192.168.0.109 () {42 vars in 676 bytes} [Wed Sep 19 20:37:03 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4694|app: -1|req: -1/10] 192.168.0.109 () {40 vars in 598 bytes} [Wed Sep 19 20:37:03 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 20:37:42 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday/
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35897 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x168f250
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+  File "uwsgi.ini", line 3
+    http=127.0.0.1:8000
+               ^
+SyntaxError: invalid syntax
+failed to parse file uwsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4737)
+spawned uWSGI worker 1 (pid: 4738, cores: 2)
+spawned uWSGI worker 2 (pid: 4739, cores: 2)
+spawned uWSGI worker 3 (pid: 4740, cores: 2)
+spawned uWSGI worker 4 (pid: 4741, cores: 2)
+spawned uWSGI http 1 (pid: 4742)
+--- no python application found, check your startup logs for errors ---
+[pid: 4739|app: -1|req: -1/1] 127.0.0.1 () {40 vars in 686 bytes} [Wed Sep 19 20:37:45 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4741|app: -1|req: -1/2] 127.0.0.1 () {42 vars in 662 bytes} [Wed Sep 19 20:37:45 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4740|app: -1|req: -1/3] 127.0.0.1 () {40 vars in 686 bytes} [Wed Sep 19 20:37:45 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 4738|app: -1|req: -1/4] 127.0.0.1 () {42 vars in 662 bytes} [Wed Sep 19 20:37:45 2018] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4742)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 20:50:58 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40001 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xc78e00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5074)
+spawned uWSGI worker 1 (pid: 5075, cores: 2)
+spawned uWSGI worker 2 (pid: 5076, cores: 2)
+spawned uWSGI worker 3 (pid: 5077, cores: 2)
+spawned uWSGI worker 4 (pid: 5078, cores: 2)
+spawned uWSGI http 1 (pid: 5079)
+--- no python application found, check your startup logs for errors ---
+[pid: 5078|app: -1|req: -1/1] 127.0.0.1 () {40 vars in 656 bytes} [Wed Sep 19 20:51:15 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 5076|app: -1|req: -1/2] 127.0.0.1 () {40 vars in 656 bytes} [Wed Sep 19 20:51:16 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 5077|app: -1|req: -1/3] 127.0.0.1 () {40 vars in 656 bytes} [Wed Sep 19 20:51:16 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 5078|app: -1|req: -1/4] 127.0.0.1 () {40 vars in 656 bytes} [Wed Sep 19 20:51:16 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 5076|app: -1|req: -1/5] 127.0.0.1 () {40 vars in 656 bytes} [Wed Sep 19 21:00:28 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 5075|app: -1|req: -1/6] 127.0.0.1 () {40 vars in 656 bytes} [Wed Sep 19 21:00:29 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5079)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 21:00:43 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41100 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x25ade00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5153)
+spawned uWSGI worker 1 (pid: 5154, cores: 2)
+spawned uWSGI worker 2 (pid: 5155, cores: 2)
+spawned uWSGI worker 3 (pid: 5156, cores: 2)
+spawned uWSGI worker 4 (pid: 5157, cores: 2)
+spawned uWSGI http 1 (pid: 5158)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5158)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 21:01:07 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42119 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x16b5e00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5170)
+spawned uWSGI worker 1 (pid: 5171, cores: 2)
+spawned uWSGI worker 2 (pid: 5172, cores: 2)
+spawned uWSGI worker 3 (pid: 5173, cores: 2)
+spawned uWSGI worker 4 (pid: 5174, cores: 2)
+spawned uWSGI http 1 (pid: 5175)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 21:01:15 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 5173|app: -1|req: -1/1] 127.0.0.1 () {40 vars in 656 bytes} [Wed Sep 19 21:02:29 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 21:10:00 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 5173|app: -1|req: -1/2] 127.0.0.1 () {40 vars in 656 bytes} [Wed Sep 19 21:10:03 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 5171|app: -1|req: -1/3] 127.0.0.1 () {40 vars in 656 bytes} [Wed Sep 19 21:10:04 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 5172|app: -1|req: -1/4] 127.0.0.1 () {40 vars in 656 bytes} [Wed Sep 19 21:10:04 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 5174|app: -1|req: -1/5] 127.0.0.1 () {40 vars in 656 bytes} [Wed Sep 19 21:10:05 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 5173|app: -1|req: -1/6] 127.0.0.1 () {40 vars in 656 bytes} [Wed Sep 19 21:10:05 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 21:22:48 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 21:24:21 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:43630 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x9e0e00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5403)
+spawned uWSGI worker 1 (pid: 5404, cores: 2)
+spawned uWSGI worker 2 (pid: 5405, cores: 2)
+spawned uWSGI worker 3 (pid: 5406, cores: 2)
+spawned uWSGI worker 4 (pid: 5407, cores: 2)
+spawned uWSGI http 1 (pid: 5408)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5408)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 21:24:48 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39196 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1913e00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5421)
+spawned uWSGI worker 1 (pid: 5422, cores: 2)
+spawned uWSGI worker 2 (pid: 5423, cores: 2)
+spawned uWSGI worker 3 (pid: 5424, cores: 2)
+spawned uWSGI worker 4 (pid: 5425, cores: 2)
+spawned uWSGI http 1 (pid: 5426)
+--- no python application found, check your startup logs for errors ---
+[pid: 5173|app: -1|req: -1/7] 127.0.0.1 () {40 vars in 656 bytes} [Wed Sep 19 21:25:11 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5426)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 21:29:48 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44754 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x19c6e00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5511)
+spawned uWSGI worker 1 (pid: 5512, cores: 2)
+spawned uWSGI worker 2 (pid: 5513, cores: 2)
+spawned uWSGI worker 3 (pid: 5514, cores: 2)
+spawned uWSGI worker 4 (pid: 5515, cores: 2)
+spawned uWSGI http 1 (pid: 5516)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5516)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 21:32:32 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39072 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x230ae00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file fresheveryday/wsgi.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5538)
+spawned uWSGI worker 1 (pid: 5539, cores: 2)
+spawned uWSGI worker 2 (pid: 5540, cores: 2)
+spawned uWSGI worker 3 (pid: 5541, cores: 2)
+spawned uWSGI worker 4 (pid: 5542, cores: 2)
+spawned uWSGI http 1 (pid: 5543)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5543)
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 21:33:41 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36424 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1e04e00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1e04e00 pid: 5559 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5559)
+spawned uWSGI worker 1 (pid: 5562, cores: 2)
+spawned uWSGI worker 2 (pid: 5563, cores: 2)
+spawned uWSGI worker 3 (pid: 5564, cores: 2)
+spawned uWSGI worker 4 (pid: 5565, cores: 2)
+spawned uWSGI http 1 (pid: 5566)
+--- no python application found, check your startup logs for errors ---
+[pid: 5173|app: -1|req: -1/8] 127.0.0.1 () {40 vars in 655 bytes} [Wed Sep 19 21:34:03 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 5174|app: -1|req: -1/9] 127.0.0.1 () {40 vars in 655 bytes} [Wed Sep 19 21:34:03 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 5171|app: -1|req: -1/10] 127.0.0.1 () {40 vars in 655 bytes} [Wed Sep 19 21:34:04 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 5173|app: -1|req: -1/11] 127.0.0.1 () {40 vars in 655 bytes} [Wed Sep 19 21:34:04 2018] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5566)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 21:40:00 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+worker 1 buried after 11 seconds
+worker 2 buried after 11 seconds
+worker 3 buried after 11 seconds
+worker 4 buried after 11 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 21:40:17 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42450 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x18b2e00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x18b2e00 pid: 5628 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5628)
+spawned uWSGI worker 1 (pid: 5631, cores: 2)
+spawned uWSGI worker 2 (pid: 5632, cores: 2)
+spawned uWSGI worker 3 (pid: 5633, cores: 2)
+spawned uWSGI worker 4 (pid: 5634, cores: 2)
+spawned uWSGI http 1 (pid: 5635)
+[pid: 5633|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 625 bytes} [Wed Sep 19 21:42:25 2018] GET / => generated 11759 bytes in 407 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 612 bytes} [Wed Sep 19 21:42:25 2018] GET /static/css/reset.css => generated 94 bytes in 46 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5634|app: 0|req: 1/3] 127.0.0.1 () {38 vars in 626 bytes} [Wed Sep 19 21:42:25 2018] GET /static/images/logo.png => generated 96 bytes in 3512 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5634|app: 0|req: 2/5] 127.0.0.1 () {38 vars in 628 bytes} [Wed Sep 19 21:42:29 2018] GET /static/images/slide.jpg => generated 97 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 3/5] 127.0.0.1 () {38 vars in 632 bytes} [Wed Sep 19 21:42:29 2018] GET /static/images/slide02.jpg => generated 99 bytes in 22 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 5/6] 127.0.0.1 () {38 vars in 632 bytes} [Wed Sep 19 21:42:29 2018] GET /static/images/slide03.jpg => generated 99 bytes in 86 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 5/7] 127.0.0.1 () {38 vars in 632 bytes} [Wed Sep 19 21:42:29 2018] GET /static/images/slide04.jpg => generated 99 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 6/8] 127.0.0.1 () {38 vars in 628 bytes} [Wed Sep 19 21:42:29 2018] GET /static/images/adv01.jpg => generated 97 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 7/9] 127.0.0.1 () {38 vars in 628 bytes} [Wed Sep 19 21:42:29 2018] GET /static/images/adv02.jpg => generated 97 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 8/10] 127.0.0.1 () {38 vars in 634 bytes} [Wed Sep 19 21:42:29 2018] GET /static/images/banner01.jpg => generated 100 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 9/11] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:29 2018] GET /static/df_goods/goods0019.jpg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 10/12] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:29 2018] GET /static/df_goods/goods0013.jpg => generated 103 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 12/14] 127.0.0.1 () {38 vars in 638 bytes} [Wed Sep 19 21:42:30 2018] GET /static/df_goods/goods006.jpg => generated 102 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 12/14] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:29 2018] GET /static/df_goods/goods0012.jpg => generated 103 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 13/15] 127.0.0.1 () {38 vars in 632 bytes} [Wed Sep 19 21:42:30 2018] GET /static/images/banner02.jpg => generated 100 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 14/16] 127.0.0.1 () {38 vars in 639 bytes} [Wed Sep 19 21:42:30 2018] GET /static/df_goods/goods0016.jpg => generated 103 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5634|app: 0|req: 3/18] 127.0.0.1 () {38 vars in 639 bytes} [Wed Sep 19 21:42:30 2018] GET /static/df_goods/goods0021.jpg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 15/18] 127.0.0.1 () {38 vars in 637 bytes} [Wed Sep 19 21:42:30 2018] GET /static/df_goods/goods004.jpg => generated 102 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 16/19] 127.0.0.1 () {38 vars in 633 bytes} [Wed Sep 19 21:42:30 2018] GET /static/images/banner03.jpg => generated 100 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 17/20] 127.0.0.1 () {38 vars in 639 bytes} [Wed Sep 19 21:42:30 2018] GET /static/df_goods/goods0017.jpg => generated 103 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 18/21] 127.0.0.1 () {38 vars in 637 bytes} [Wed Sep 19 21:42:30 2018] GET /static/df_goods/goods002.jpg => generated 102 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5634|app: 0|req: 4/22] 127.0.0.1 () {38 vars in 637 bytes} [Wed Sep 19 21:42:30 2018] GET /static/df_goods/goods008.jpg => generated 102 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 19/24] 127.0.0.1 () {38 vars in 633 bytes} [Wed Sep 19 21:42:30 2018] GET /static/images/banner04.jpg => generated 100 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5634|app: 0|req: 5/24] 127.0.0.1 () {38 vars in 639 bytes} [Wed Sep 19 21:42:30 2018] GET /static/df_goods/goods0014.jpg => generated 103 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 20/25] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:30 2018] GET /static/df_goods/goods0010.jpg => generated 103 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 21/26] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:30 2018] GET /static/df_goods/goods0015.jpg => generated 103 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5634|app: 0|req: 6/28] 127.0.0.1 () {38 vars in 634 bytes} [Wed Sep 19 21:42:30 2018] GET /static/images/banner05.jpg => generated 100 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 22/28] 127.0.0.1 () {38 vars in 638 bytes} [Wed Sep 19 21:42:30 2018] GET /static/df_goods/goods009.jpg => generated 102 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 23/29] 127.0.0.1 () {38 vars in 634 bytes} [Wed Sep 19 21:42:30 2018] GET /static/images/banner06.jpg => generated 100 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5634|app: 0|req: 7/30] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:30 2018] GET /static/df_goods/goods0011.jpg => generated 103 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5631|app: 0|req: 2/31] 127.0.0.1 () {38 vars in 617 bytes} [Wed Sep 19 21:42:25 2018] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 4637 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5631|app: 0|req: 2/32] 127.0.0.1 () {38 vars in 610 bytes} [Wed Sep 19 21:42:25 2018] GET /static/css/main.css => generated 93 bytes in 4658 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5632|app: 0|req: 2/33] 127.0.0.1 () {38 vars in 609 bytes} [Wed Sep 19 21:42:25 2018] GET /static/js/jquery-ui.min.js => generated 100 bytes in 5987 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5632|app: 0|req: 2/34] 127.0.0.1 () {38 vars in 593 bytes} [Wed Sep 19 21:42:25 2018] GET /static/js/slide.js => generated 92 bytes in 5988 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5631|app: 0|req: 3/35] 127.0.0.1 () {38 vars in 626 bytes} [Wed Sep 19 21:42:31 2018] GET /static/images/logo.png => generated 96 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5632|app: 0|req: 3/36] 127.0.0.1 () {38 vars in 628 bytes} [Wed Sep 19 21:42:31 2018] GET /static/images/slide.jpg => generated 97 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5634|app: 0|req: 8/37] 127.0.0.1 () {38 vars in 632 bytes} [Wed Sep 19 21:42:31 2018] GET /static/images/slide02.jpg => generated 99 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 24/38] 127.0.0.1 () {38 vars in 632 bytes} [Wed Sep 19 21:42:31 2018] GET /static/images/slide03.jpg => generated 99 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5631|app: 0|req: 4/39] 127.0.0.1 () {38 vars in 632 bytes} [Wed Sep 19 21:42:31 2018] GET /static/images/slide04.jpg => generated 99 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 5634|app: 0|req: 9/40] 127.0.0.1 () {38 vars in 628 bytes} [Wed Sep 19 21:42:31 2018] GET /static/images/adv01.jpg => generated 97 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 25/41] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:31 2018] GET /static/df_goods/goods0019.jpg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5632|app: 0|req: 4/42] 127.0.0.1 () {38 vars in 634 bytes} [Wed Sep 19 21:42:31 2018] GET /static/images/banner01.jpg => generated 100 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5634|app: 0|req: 10/43] 127.0.0.1 () {38 vars in 628 bytes} [Wed Sep 19 21:42:31 2018] GET /static/images/adv02.jpg => generated 97 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 26/44] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods0013.jpg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5631|app: 0|req: 5/45] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods0012.jpg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5631|app: 0|req: 6/46] 127.0.0.1 () {38 vars in 638 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods006.jpg => generated 102 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5634|app: 0|req: 11/47] 127.0.0.1 () {38 vars in 634 bytes} [Wed Sep 19 21:42:32 2018] GET /static/images/banner02.jpg => generated 100 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 27/48] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods0016.jpg => generated 103 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 28/49] 127.0.0.1 () {38 vars in 638 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods004.jpg => generated 102 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5632|app: 0|req: 5/50] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods0021.jpg => generated 103 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5634|app: 0|req: 12/51] 127.0.0.1 () {38 vars in 634 bytes} [Wed Sep 19 21:42:32 2018] GET /static/images/banner03.jpg => generated 100 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5632|app: 0|req: 6/53] 127.0.0.1 () {38 vars in 638 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods002.jpg => generated 102 bytes in 25 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5631|app: 0|req: 8/54] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods0017.jpg => generated 103 bytes in 34 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5634|app: 0|req: 13/54] 127.0.0.1 () {38 vars in 638 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods008.jpg => generated 102 bytes in 21 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5631|app: 0|req: 8/55] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods0014.jpg => generated 103 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5633|app: 0|req: 30/56] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods0010.jpg => generated 103 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5633|app: 0|req: 30/57] 127.0.0.1 () {38 vars in 634 bytes} [Wed Sep 19 21:42:32 2018] GET /static/images/banner04.jpg => generated 100 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5634|app: 0|req: 14/58] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods0015.jpg => generated 103 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5632|app: 0|req: 7/59] 127.0.0.1 () {38 vars in 634 bytes} [Wed Sep 19 21:42:32 2018] GET /static/images/banner06.jpg => generated 100 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5631|app: 0|req: 10/60] 127.0.0.1 () {38 vars in 638 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods009.jpg => generated 102 bytes in 75 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5631|app: 0|req: 10/61] 127.0.0.1 () {38 vars in 640 bytes} [Wed Sep 19 21:42:32 2018] GET /static/df_goods/goods0011.jpg => generated 103 bytes in 43 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 1)
+[pid: 5634|app: 0|req: 15/62] 127.0.0.1 () {38 vars in 634 bytes} [Wed Sep 19 21:42:32 2018] GET /static/images/banner05.jpg => generated 100 bytes in 101 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 5634|app: 0|req: 16/63] 127.0.0.1 () {38 vars in 579 bytes} [Wed Sep 19 21:42:34 2018] GET /favicon.ico => generated 85 bytes in 89 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5635)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Sep 19 21:42:55 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.0.109:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x26af170
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x26af170 pid: 5661 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5661)
+spawned uWSGI worker 1 (pid: 5666, cores: 2)
+spawned uWSGI worker 2 (pid: 5667, cores: 2)
+spawned uWSGI worker 3 (pid: 5668, cores: 2)
+spawned uWSGI worker 4 (pid: 5669, cores: 2)
+worker 1 buried after 9 seconds
+worker 2 buried after 9 seconds
+worker 3 buried after 9 seconds
+worker 4 buried after 9 seconds
+goodbye to uWSGI.
+[pid: 5669|app: 0|req: 1/1] 192.168.0.109 () {40 vars in 645 bytes} [Wed Sep 19 21:44:33 2018] GET / => generated 11759 bytes in 252 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+/cart/
+[pid: 5669|app: 0|req: 2/2] 192.168.0.109 () {42 vars in 625 bytes} [Wed Sep 19 21:44:34 2018] GET /cart/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 6 headers in 183 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 3/3] 192.168.0.109 () {42 vars in 625 bytes} [Wed Sep 19 21:44:34 2018] GET /favicon.ico => generated 85 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5668|app: 0|req: 1/4] 192.168.0.109 () {44 vars in 664 bytes} [Wed Sep 19 21:44:34 2018] GET /user/login/ => generated 2598 bytes in 209 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5668|app: 0|req: 2/5] 192.168.0.109 () {44 vars in 731 bytes} [Wed Sep 19 21:44:42 2018] GET /user/login/ => generated 2598 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 5667|app: 0|req: 1/6] 192.168.0.109 () {52 vars in 933 bytes} [Wed Sep 19 21:44:47 2018] POST /user/login_handle/ => generated 0 bytes in 902 msecs (HTTP/1.1 302) 7 headers in 311 bytes (1 switches on core 0)
+[pid: 5667|app: 0|req: 2/7] 192.168.0.109 () {46 vars in 822 bytes} [Wed Sep 19 21:44:48 2018] GET /cart/ => generated 7692 bytes in 221 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 5668|app: 0|req: 3/8] 192.168.0.109 () {44 vars in 732 bytes} [Wed Sep 19 21:44:49 2018] GET /cart/add0_0/ => generated 12 bytes in 178 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 4/9] 192.168.0.109 () {44 vars in 795 bytes} [Wed Sep 19 21:44:52 2018] GET /user/info/ => generated 2785 bytes in 146 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 5/10] 192.168.0.109 () {44 vars in 780 bytes} [Wed Sep 19 21:45:34 2018] GET / => generated 11824 bytes in 185 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 6/11] 192.168.0.109 () {44 vars in 713 bytes} [Wed Sep 19 21:45:34 2018] GET /cart/ => generated 12 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 5667|app: 0|req: 3/12] 192.168.0.109 () {44 vars in 790 bytes} [Wed Sep 19 21:45:36 2018] GET /list1_1_1/ => generated 7935 bytes in 113 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 5667|app: 0|req: 4/13] 192.168.0.109 () {44 vars in 723 bytes} [Wed Sep 19 21:45:37 2018] GET /cart/ => generated 12 bytes in 74 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 7/14] 192.168.0.109 () {44 vars in 800 bytes} [Wed Sep 19 21:45:43 2018] GET /list1_2_1/ => generated 7973 bytes in 71 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 8/15] 192.168.0.109 () {44 vars in 723 bytes} [Wed Sep 19 21:45:43 2018] GET /cart/ => generated 12 bytes in 48 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 5667|app: 0|req: 5/16] 192.168.0.101 () {40 vars in 662 bytes} [Wed Sep 19 21:45:59 2018] GET / => generated 11759 bytes in 51 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+/cart/
+[pid: 5667|app: 0|req: 6/17] 192.168.0.101 () {42 vars in 642 bytes} [Wed Sep 19 21:45:59 2018] GET /cart/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 183 bytes (1 switches on core 1)
+[pid: 5668|app: 0|req: 4/18] 192.168.0.101 () {44 vars in 681 bytes} [Wed Sep 19 21:46:00 2018] GET /user/login/ => generated 2598 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5667|app: 0|req: 7/19] 192.168.0.101 () {42 vars in 667 bytes} [Wed Sep 19 21:46:00 2018] GET /favicon.ico => generated 85 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 9/20] 192.168.0.101 () {44 vars in 726 bytes} [Wed Sep 19 21:46:01 2018] GET / => generated 11759 bytes in 168 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+/cart/
+[pid: 5668|app: 0|req: 5/21] 192.168.0.101 () {44 vars in 669 bytes} [Wed Sep 19 21:46:01 2018] GET /cart/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 6 headers in 183 bytes (1 switches on core 1)
+[pid: 5666|app: 0|req: 1/22] 192.168.0.101 () {44 vars in 681 bytes} [Wed Sep 19 21:46:02 2018] GET /user/login/ => generated 2598 bytes in 1513 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Building prefix dict from the default dictionary ...
+[pid: 5668|app: 0|req: 6/23] 192.168.0.101 () {44 vars in 734 bytes} [Wed Sep 19 21:46:06 2018] GET /279/ => generated 7432 bytes in 221 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+/cart/
+[pid: 5669|app: 0|req: 10/24] 192.168.0.101 () {44 vars in 673 bytes} [Wed Sep 19 21:46:06 2018] GET /cart/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 6 headers in 183 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 11/25] 192.168.0.101 () {44 vars in 685 bytes} [Wed Sep 19 21:46:06 2018] GET /user/login/ => generated 2598 bytes in 25 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 12/26] 192.168.0.101 () {44 vars in 730 bytes} [Wed Sep 19 21:46:08 2018] GET / => generated 11759 bytes in 286 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+/cart/
+[pid: 5669|app: 0|req: 13/27] 192.168.0.101 () {44 vars in 669 bytes} [Wed Sep 19 21:46:08 2018] GET /cart/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 6 headers in 183 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 14/28] 192.168.0.101 () {44 vars in 681 bytes} [Wed Sep 19 21:46:08 2018] GET /user/login/ => generated 2598 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 15/29] 192.168.0.101 () {44 vars in 746 bytes} [Wed Sep 19 21:46:10 2018] GET /list1_1_1/ => generated 7870 bytes in 65 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+/cart/
+[pid: 5669|app: 0|req: 16/30] 192.168.0.101 () {44 vars in 679 bytes} [Wed Sep 19 21:46:10 2018] GET /cart/ => generated 0 bytes in 4 msecs (HTTP/1.1 302) 6 headers in 183 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 17/31] 192.168.0.101 () {44 vars in 691 bytes} [Wed Sep 19 21:46:10 2018] GET /user/login/ => generated 2598 bytes in 23 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 1)
+Dumping model to file cache /tmp/jieba.cache
+[pid: 5669|app: 0|req: 18/32] 192.168.0.101 () {44 vars in 758 bytes} [Wed Sep 19 21:46:13 2018] GET /user/login/ => generated 2598 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Loading model cost 9.972 seconds.
+Prefix dict has been built succesfully.
+[pid: 5666|app: 0|req: 2/33] 192.168.0.101 () {44 vars in 734 bytes} [Wed Sep 19 21:46:03 2018] GET /279/ => generated 7432 bytes in 10304 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+[pid: 5669|app: 0|req: 19/34] 192.168.0.101 () {52 vars in 956 bytes} [Wed Sep 19 21:46:16 2018] POST /user/login_handle/ => generated 0 bytes in 396 msecs (HTTP/1.1 302) 7 headers in 311 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 20/35] 192.168.0.101 () {46 vars in 839 bytes} [Wed Sep 19 21:46:16 2018] GET /cart/ => generated 7692 bytes in 322 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 21/36] 192.168.0.101 () {44 vars in 749 bytes} [Wed Sep 19 21:46:17 2018] GET /cart/add0_0/ => generated 12 bytes in 79 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 22/37] 192.168.0.101 () {44 vars in 792 bytes} [Wed Sep 19 21:46:20 2018] GET / => generated 11824 bytes in 123 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 23/38] 192.168.0.101 () {44 vars in 730 bytes} [Wed Sep 19 21:46:20 2018] GET /cart/ => generated 12 bytes in 460 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+Loading model cost 9.364 seconds.
+Prefix dict has been built succesfully.
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+[pid: 5667|app: 0|req: 8/39] 192.168.0.101 () {44 vars in 795 bytes} [Wed Sep 19 21:46:29 2018] GET /294/ => generated 7450 bytes in 252 msecs (HTTP/1.1 200) 5 headers in 255 bytes (1 switches on core 0)
+[pid: 5667|app: 0|req: 9/40] 192.168.0.101 () {44 vars in 734 bytes} [Wed Sep 19 21:46:30 2018] GET /cart/ => generated 12 bytes in 73 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+Loading model cost 4.229 seconds.
+Prefix dict has been built succesfully.
+[pid: 5669|app: 0|req: 25/41] 192.168.0.101 () {44 vars in 795 bytes} [Wed Sep 19 21:46:26 2018] GET /294/ => generated 7450 bytes in 4479 msecs (HTTP/1.1 200) 5 headers in 255 bytes (1 switches on core 0)
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+[pid: 5669|app: 0|req: 25/42] 192.168.0.101 () {44 vars in 795 bytes} [Wed Sep 19 21:46:28 2018] GET /294/ => generated 7450 bytes in 3017 msecs (HTTP/1.1 200) 5 headers in 255 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 26/43] 192.168.0.101 () {44 vars in 791 bytes} [Wed Sep 19 21:46:31 2018] GET / => generated 11824 bytes in 89 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 27/44] 192.168.0.101 () {44 vars in 730 bytes} [Wed Sep 19 21:46:31 2018] GET /cart/ => generated 12 bytes in 50 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 28/45] 192.168.0.101 () {44 vars in 795 bytes} [Wed Sep 19 21:46:33 2018] GET /297/ => generated 7487 bytes in 220 msecs (HTTP/1.1 200) 5 headers in 255 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 29/46] 192.168.0.101 () {44 vars in 734 bytes} [Wed Sep 19 21:46:33 2018] GET /cart/ => generated 12 bytes in 53 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 30/47] 192.168.0.101 () {44 vars in 791 bytes} [Wed Sep 19 21:46:34 2018] GET / => generated 11824 bytes in 187 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 31/48] 192.168.0.101 () {44 vars in 730 bytes} [Wed Sep 19 21:46:34 2018] GET /cart/ => generated 12 bytes in 135 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 32/49] 192.168.0.101 () {46 vars in 822 bytes} [Wed Sep 19 21:46:36 2018] GET / => generated 11824 bytes in 197 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 33/50] 192.168.0.101 () {44 vars in 730 bytes} [Wed Sep 19 21:46:36 2018] GET /cart/ => generated 12 bytes in 65 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 34/51] 192.168.0.101 () {44 vars in 795 bytes} [Wed Sep 19 21:46:37 2018] GET /305/ => generated 7403 bytes in 118 msecs (HTTP/1.1 200) 5 headers in 255 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 35/52] 192.168.0.101 () {44 vars in 734 bytes} [Wed Sep 19 21:46:38 2018] GET /cart/ => generated 12 bytes in 54 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+Loading model cost 7.188 seconds.
+Prefix dict has been built succesfully.
+[pid: 5669|app: 0|req: 36/53] 192.168.0.101 () {44 vars in 801 bytes} [Wed Sep 19 21:46:40 2018] GET /cart/ => generated 7692 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 37/54] 192.168.0.101 () {44 vars in 749 bytes} [Wed Sep 19 21:46:40 2018] GET /cart/add0_0/ => generated 12 bytes in 119 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 38/55] 192.168.0.101 () {44 vars in 753 bytes} [Wed Sep 19 21:46:43 2018] GET /cart/delete37/ => generated 9 bytes in 98 msecs (HTTP/1.1 200) 3 headers in 99 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 39/56] 192.168.0.101 () {44 vars in 749 bytes} [Wed Sep 19 21:46:43 2018] GET /cart/add0_0/ => generated 12 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 40/57] 192.168.0.101 () {44 vars in 792 bytes} [Wed Sep 19 21:46:44 2018] GET / => generated 11824 bytes in 108 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 41/58] 192.168.0.101 () {44 vars in 730 bytes} [Wed Sep 19 21:46:44 2018] GET /cart/ => generated 12 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 5667|app: 0|req: 10/59] 192.168.0.101 () {44 vars in 807 bytes} [Wed Sep 19 21:46:51 2018] GET /list3_1_1/ => generated 7977 bytes in 104 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 5667|app: 0|req: 11/60] 192.168.0.101 () {44 vars in 740 bytes} [Wed Sep 19 21:46:51 2018] GET /cart/ => generated 12 bytes in 72 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 5669|app: 0|req: 42/61] 192.168.0.101 () {44 vars in 834 bytes} [Wed Sep 19 21:47:00 2018] GET /search/?q=%E6%9E%9C => generated 3761 bytes in 169 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 5669|app: 0|req: 43/62] 192.168.0.101 () {44 vars in 749 bytes} [Wed Sep 19 21:47:01 2018] GET /cart/ => generated 12 bytes in 48 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 5667|app: 0|req: 12/63] 192.168.0.101 () {44 vars in 797 bytes} [Wed Sep 19 21:47:07 2018] GET / => generated 11824 bytes in 73 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 5667|app: 0|req: 13/64] 192.168.0.101 () {44 vars in 730 bytes} [Wed Sep 19 21:47:07 2018] GET /cart/ => generated 12 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+gateway "uWSGI http 1" has been buried (pid: 5175)
+...brutally killing workers...
+Gracefully killing worker 4 (pid: 5174)...
+Gracefully killing worker 1 (pid: 5171)...
+Gracefully killing worker 2 (pid: 5172)...
+Gracefully killing worker 3 (pid: 5173)...
+worker 1 buried after 4 seconds
+worker 2 buried after 4 seconds
+worker 3 buried after 4 seconds
+worker 4 buried after 4 seconds
+binary reloading uWSGI...
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:42119)
+running /home/python/.virtualenvs/h4/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Thu Sep 20 03:51:14 2018] ***
+compiled with version: 5.4.0 20160609 on 18 September 2018 15:14:15
+os: Linux-4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/projects/fresheveryday/fresheveryday
+detected binary path: /home/python/.virtualenvs/h4/bin/uwsgi
+chdir() to /home/python/Desktop/projects/fresheveryday/fresheveryday
+your processes number limit is 15581
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.0.109:8000 fd 3
+Python version: 2.7.12 (default, Nov 20 2017, 18:23:56)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1f19ec0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 28 seconds on interpreter 0x1f19ec0 pid: 5170 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 5170)
+spawned uWSGI worker 1 (pid: 8664, cores: 2)
+spawned uWSGI worker 2 (pid: 8665, cores: 2)
+spawned uWSGI worker 3 (pid: 8666, cores: 2)
+spawned uWSGI worker 4 (pid: 8667, cores: 2)
